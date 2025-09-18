@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: rgb(72, 48, 88);
+    color: bisque;
+    font-style: italic;
+    font-size: xx-large;
+}
+header {
+    font-style: italic;
+    margin: 5px;
+    border-radius: 10px;
+    border-width: 10px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.div {
+    display: flex; 
+    justify-content: space-evenly;
+    width: 400px;
+}
+.iv {
+    font-size: large;
+    font-family: "Niconne";
+    color: bisque;
+    background-color: black;
+}
+.iv:hover {
+    font-size: xx-large;
+}
+.name {
+    font-family: "Niconne"; 
+}
+main {
+    margin-top: 50px;
+    text-align: center;
+}
+h5 {
+    margin-bottom: 50px;
+    background: linear-gradient(to right, #ff007f, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
