@@ -37,10 +37,15 @@ header {
 main {
     margin-top: 50px;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 h5 {
     margin-bottom: 50px;
     background: linear-gradient(to right, #ff007f, #800080);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.mike {
+    width: 900px;
 }
